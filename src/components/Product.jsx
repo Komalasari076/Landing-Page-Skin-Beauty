@@ -67,7 +67,7 @@ export default function Product() {
         description="Temukan solusi perawatan terbaik untuk kulit yang sehat, lembap, dan bercahaya. Diformulasikan dengan bahan berkualitas untuk hasil maksimal, karena kulitmu layak mendapatkan yang terbaik!"
       />
 
-      <div className="grid grid-cols-4 gap-10 my-10">
+      <div className="grid grid-cols-4 gap-10 my-14">
         {dataProduct.map((item) => (
           <div key={item.id} className="bg-white p-2 rounded-xl shadow-md font-semibold">
             <img src="#" alt="" className="w-full h-48 bg-gray-100 rounded-xl" />
