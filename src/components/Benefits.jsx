@@ -5,7 +5,7 @@ import tested from "../assets/tested.png";
 
 export default function Benefits() {
   return (
-    <section className="flex justify-between items-start my-20 px-14">
+    <section className="flex justify-between items-start my-30 px-14">
       <div className="flex flex-col gap-14">
         <HeadDesc
           title="Kandungan Niacinamide 5%"

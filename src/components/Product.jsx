@@ -61,7 +61,7 @@ export default function Product() {
   ];
 
   return (
-    <section className="my-20 px-14">
+    <section className="my-30 px-14">
       <HeadDesc2
         title="Pilihan Terbaik untuk Kulit Cerah & Sehat"
         description="Temukan solusi perawatan terbaik untuk kulit yang sehat, lembap, dan bercahaya. Diformulasikan dengan bahan berkualitas untuk hasil maksimal, karena kulitmu layak mendapatkan yang terbaik!"
