@@ -5,6 +5,7 @@ import Product from "./components/Product";
 import Testimonial from "./components/Testimonial";
 import Blog from "./components/Blog";
 import FAQ from "./components/FAQ";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,11 +13,12 @@ function App() {
       <Hero />
       <div className="max-w-9/10 m-auto">
         <Benefits />
-        <Product/>
-        <Testimonial/>
-        <Blog/>
-        <FAQ/>
+        <Product />
+        <Testimonial />
+        <Blog />
+        <FAQ />
       </div>
+      <Footer />
     </>
   );
 }
