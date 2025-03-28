@@ -4,8 +4,8 @@ import cover from "../assets/image.png";
 export default function Hero() {
   return (
     <>
-      <img src={cover} className="w-full h-full object-cover" />
-      <div className="max-w-9/10 m-auto my-10 px-14 absolute inset-0">
+      <img src={cover} className="w-full h-screen object-cover object-right lg:brightness-50 brightness-40" />
+      <div className="max-w-9/10 m-auto lg:my-10 my-6 lg:px-14 px-2 absolute inset-0">
         <Navigasi />
 
         <section className="pt-24">
@@ -21,7 +21,7 @@ export default function Hero() {
             best solution for your skin here!
           </p>
 
-          <button className="bg-[#039397] text-xl font-semibold text-white py-2 px-6 rounded-xl mt-20">
+          <button className="bg-[#039397] hover:bg-[#386d6e] text-xl font-semibold text-white py-2 px-6 rounded-xl mt-20 cursor-pointer">
             Shop Now
           </button>
         </section>
