@@ -13,12 +13,12 @@ function App() {
       <Hero />
       <div className="max-w-9/10 m-auto">
         <Benefits />
-        <Product />
+        {/* <Product />
         <Testimonial />
         <Blog />
-        <FAQ />
+        <FAQ /> */}
       </div>
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
