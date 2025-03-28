@@ -61,14 +61,27 @@ export default function Product() {
   ];
 
   return (
-    <section className="my-30 px-14">
+    <section className="my:20 lg:my-30 lg:px-14">
       <HeadDesc2
         title="Pilihan Terbaik untuk Kulit Cerah & Sehat"
         description="Temukan solusi perawatan terbaik untuk kulit yang sehat, lembap, dan bercahaya. Diformulasikan dengan bahan berkualitas untuk hasil maksimal, karena kulitmu layak mendapatkan yang terbaik!"
       />
 
-      <div className="grid grid-cols-4 gap-10 my-14">
-        {dataProduct.map((item) => (
+      {/* For Desktop (8 Product) */}
+      <div className="hidden md:grid lg:grid-cols-4 grid-cols-2 gap-10 my-14">
+        {dataProduct.slice(0, 8).map((item) => (
+          <div key={item.id} className="bg-white p-2 rounded-xl shadow-md font-semibold">
+            <img src="#" alt="" className="w-full h-48 bg-gray-100 rounded-xl" />
+            <h3 className="text-lg mt-4 mb-1 opacity-85">{item.name}</h3>
+            <p className="mb-4">Rp. {item.price.toLocaleString()} <span className="opacity-75">({item.sold} sold)</span></p>
+            <p><span className="text-[#039397]">&#9733; &#9733; &#9733; &#9733; &#9733;</span> {item.rating}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* For Mobile (4 Product) */}
+      <div className="grid grid-cols-1 gap-6 my-8 md:hidden">
+        {dataProduct.slice(0, 4).map((item) => (
           <div key={item.id} className="bg-white p-2 rounded-xl shadow-md font-semibold">
             <img src="#" alt="" className="w-full h-48 bg-gray-100 rounded-xl" />
             <h3 className="text-lg mt-4 mb-1 opacity-85">{item.name}</h3>
