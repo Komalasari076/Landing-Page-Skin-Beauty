@@ -6,17 +6,17 @@ import putri from "../assets/putri.png"
 export default function Testimonial() {
   return (
     <>
-      <div className="flex justify-between items-start my-30 px-14">
-        <div>
+      <div className="flex flex-col lg:flex-row justify-between lg:items-start items-center gap-10 my-20 lg:my-30 lg:px-14">
+        <div className="text-center lg:text-start"> 
           <h2 className="text-4xl font-semibold mb-10">Testimonial</h2>
 
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-row lg:flex-col gap-10">
             <HeadCase3 title="95%" description="Clients Reports" />
             <HeadCase3 title="9/10" description="Clients recomended" />
           </div>
         </div>
 
-        <div className="w-3/4 flex gap-10 justify-between">
+        <div className="w-full lg:w-3/4 flex flex-col lg:flex-row gap-10 justify-between">
           <CardTesti
             image={nadia}
             title="Nadia, 25 tahun"

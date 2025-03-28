@@ -14,8 +14,8 @@ function App() {
       <div className="max-w-9/10 m-auto">
         <Benefits />
         <Product />
-        {/* <Testimonial />
-        <Blog />
+        <Testimonial />
+        {/* <Blog />
         <FAQ /> */}
       </div>
       {/* <Footer /> */}
