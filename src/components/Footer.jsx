@@ -1,8 +1,8 @@
 export default function Footer() {
   return (
     <div className="h-full w-full bg-gradient-to-r from-[#93B4B9] via-[#B1CED6] to-[#BFD2DE]">
-      <div className="max-w-9/10 m-auto my-10 px-14 py-14 flex justify-between">
-        <div className="w-[450px]">
+      <div className="max-w-9/10 m-auto my-10 lg:px-14 py-14 flex flex-col lg:flex-row justify-between gap-10 ">
+        <div className="md:max-w-3/5 lg:w-2/5">
           <h1 className="text-4xl font-semibold text-white">
             Sign up our Newslatter!
           </h1>
@@ -15,14 +15,14 @@ export default function Footer() {
             <input
               type="text"
               placeholder="youremail@gmail.com"
-              className="w-80 bg-white/20 p-4 rounded-l-2xl placeholder-white"
+              className="w-3/5 bg-white/20 p-4 rounded-l-2xl placeholder-white"
             />
             <button className="bg-[#039397] p-4 rounded-2xl -ml-2 text-white font-semibold cursor-pointer">
               Subscribe
             </button>
           </div>
         </div>
-        <div className="flex justify-between gap-20 text-white">
+        <div className="flex flex-col lg:flex-row justify-between gap-8 lg:gap-20 text-white">
           <ul className="flex flex-col gap-3">
             <li className="text-lg font-semibold">Customer Support</li>
             <li>How to Order</li>
@@ -48,7 +48,7 @@ export default function Footer() {
       </div>
 
       <div className="bg-white/20 py-4">
-        <div className="max-w-9/10 m-auto px-14 flex justify-between items-center text-white">
+        <div className="max-w-9/10 m-auto lg:px-14 flex flex-col lg:flex-row gap-4 justify-between items-center text-white">
           <p>© 2025 Skin. All rights reserved.</p>
           <div className="flex justify-between gap-6">
             <div className="w-8 h-8 rounded-full bg-white"></div>
