@@ -47,16 +47,16 @@ export default function FAQ() {
   }
 
   return (
-    <div className="flex justify-between my-30 px-14">
-      <div>
+    <div className="flex flex-col lg:flex-row justify-between gap-6 lg:my-30 my-20 lg:px-14">
+      <div className="flex justify-between md:block">
         <h2 className="text-6xl font-semibold mb-10">FAQ</h2>
-        <div className="font-josefin flex flex-col gap-4">
+        <div className="font-josefin flex flex-col lg:flex-col md:flex-row md:items-center gap-4">
           <p className="text-3xl">Frequently</p>
           <p className="text-5xl">Asked</p>
           <p className="text-3xl">Questions</p>
         </div>
       </div>
-      <div className="w-[1000px] bg-white p-6 rounded-xl shadow-md">
+      <div className="lg:w-[80%] w-full bg-white p-6 rounded-xl shadow-md">
         {faqs.map((faq) => (
           <div
             key={faq.id}

@@ -10,7 +10,7 @@ export default function Testimonial() {
         <div className="lg:w-fit w-full text-center lg:text-start lg:block md:flex md:justify-between"> 
           <h2 className="text-4xl font-semibold mb-10">Testimonial</h2>
 
-          <div className="flex flex-row lg:flex-col gap-10">
+          <div className="w-full flex flex-row lg:flex-col justify-center md:justify-end gap-10">
             <HeadCase3 title="95%" description="Clients Reports" />
             <HeadCase3 title="9/10" description="Clients recomended" />
           </div>
