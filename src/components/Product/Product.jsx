@@ -1,0 +1,80 @@
+import Heading from "./Heading";
+import ProductList from "./ProductList";
+
+export default function Product() {
+  const dataProduct = [
+    {
+      id: 1,
+      name: "Skin Retinol Serum",
+      price: 58000,
+      sold: 340,
+      rating: 4.9,
+    },
+    {
+      id: 2,
+      name: "Skin Daily Moisturizer",
+      price: 46000,
+      sold: 243,
+      rating: 4.9,
+    },
+    {
+      id: 3,
+      name: "Skin Aqua Series",
+      price: 219000,
+      sold: 200,
+      rating: 4.9,
+    },
+    {
+      id: 4,
+      name: "Skin Refreshing Toner",
+      price: 82000,
+      sold: 190,
+      rating: 4.9,
+    },
+    {
+      id: 5,
+      name: "Skin Brightening Serum",
+      price: 75000,
+      sold: 280,
+      rating: 4.9,
+    },
+    {
+      id: 6,
+      name: "Skin Hydration Gel",
+      price: 49000,
+      sold: 150,
+      rating: 4.9,
+    },
+    {
+      id: 7,
+      name: "Skin UV Protection",
+      price: 56000,
+      sold: 175,
+      rating: 4.9,
+    },
+    {
+      id: 8,
+      name: "Skin Cleansing foam",
+      price: 35000,
+      sold: 210,
+      rating: 4.9,
+    },
+  ];
+
+  return (
+    <section className="my:20 lg:my-30 lg:px-14">
+      <Heading
+        title="Pilihan Terbaik untuk Kulit Cerah & Sehat"
+        description="Temukan solusi perawatan terbaik untuk kulit yang sehat, lembap, dan
+        bercahaya. Diformulasikan dengan bahan berkualitas untuk hasil maksimal,
+        karena kulitmu layak mendapatkan yang terbaik!"
+      />
+
+      {/* For Desktop (8 Product) */}
+      <ProductList products={dataProduct.slice(0, 8)} isMobile={false} />
+
+      {/* For Mobile (4 Product) */}
+      <ProductList products={dataProduct.slice(0, 4)} isMobile={true} />
+    </section>
+  );
+}
