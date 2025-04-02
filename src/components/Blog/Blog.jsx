@@ -1,4 +1,5 @@
-import Heading from "./Product/Heading";
+import Heading from "../Product/Heading";
+import BlogList from "./BlogList";
 
 export default function Blog() {
   const dataBlog = [
@@ -33,35 +34,11 @@ export default function Blog() {
         description="Dapatkan berbagai tips, panduan, dan informasi seputar perawatan kulit, tren skincare, serta bahan aktif yang bisa membantu kulitmu tetap sehat dan bercahaya"
       />
 
-       {/* For Desktop (8 blog) */}
-      <div className="hidden lg:grid grid-cols-3 gap-10 my-14">
-        {dataBlog.map((item) => (
-          <div key={item.id} className="flex flex-col justify-between bg-white p-4 rounded-xl shadow-md">
-            <div>
-              <img src="#" alt={item.title} className="w-full h-56 bg-gray-100 rounded-xl"/>
-              <h3 className="text-lg mt-4 mb-1 font-semibold">{item.title}</h3>
-              <p className="opacity-80 mb-8 mt-2 font-semibold">{item.date}</p>
-            </div>
-
-            <p className="opacity-90 ">{item.description}</p>
-          </div>
-        ))}
-      </div>
+       {/* For Desktop (3 blog) */}
+      <BlogList blogs={dataBlog.slice(0,3)} isMobile={false}/>
 
       {/* For Mobile (2 blog) */}
-      <div className="grid md:grid-cols-2 grid-cols-1 gap-8 my-8 lg:hidden">
-        {dataBlog.slice(0,2).map((item) => (
-          <div key={item.id} className="flex flex-col justify-between bg-white p-4 rounded-xl shadow-md">
-            <div>
-              <img src="#" alt={item.title} className="w-full h-56 bg-gray-100 rounded-xl"/>
-              <h3 className="text-lg mt-4 mb-1 font-semibold">{item.title}</h3>
-              <p className="opacity-80 mb-8 mt-2 font-semibold">{item.date}</p>
-            </div>
-
-            <p className="opacity-90 ">{item.description}</p>
-          </div>
-        ))}
-      </div>
+      <BlogList blogs={dataBlog.slice(0,2)} isMobile={true}/>
     </div>
   );
 }
