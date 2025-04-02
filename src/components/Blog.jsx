@@ -1,4 +1,4 @@
-import HeadDesc2 from "./reusable/Headdesc2";
+import Heading from "./Product/Heading";
 
 export default function Blog() {
   const dataBlog = [
@@ -27,8 +27,8 @@ export default function Blog() {
   ];
 
   return (
-    <div className="my-20 lg:my-30 lg:px-14">
-      <HeadDesc2
+    <div className="my-16 lg:my-30 lg:px-14">
+      <Heading
         title="Temukan Tips & Insight Terbaik untuk Kulit Sehat"
         description="Dapatkan berbagai tips, panduan, dan informasi seputar perawatan kulit, tren skincare, serta bahan aktif yang bisa membantu kulitmu tetap sehat dan bercahaya"
       />

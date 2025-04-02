@@ -1,4 +1,4 @@
-export default function CardTesti({ image, title, description }) {
+export default function TestimonialCard({ image, title, description }) {
   return (
     <div className="w-full lg:h-80 h-96 bg-white rounded-4xl relative overflow-hidden">
       <img src={image} alt="Nadia" className="w-full lg:h-72 h-80 object-cover object-top" />

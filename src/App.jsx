@@ -1,10 +1,10 @@
 import { useState } from "react";
-import Hero from "./components/Hero";
-import Benefits from "./components/Benefits";
-import Product from "./components/Product";
-import Testimonial from "./components/Testimonial";
+import Hero from "./components/Hero/Hero";
+import Benefits from "./components/Benefit/Benefits";
+import Product from "./components/Product/Product";
+import Testimonial from "./components/Testimonial/Testimonial";
 import Blog from "./components/Blog";
-import FAQ from "./components/FAQ";
+import FAQ from "./components/FAQ/FAQ";
 import Footer from "./components/Footer";
 
 function App() {

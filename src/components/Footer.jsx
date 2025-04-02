@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
-    <div className="h-full w-full bg-gradient-to-r from-[#93B4B9] via-[#B1CED6] to-[#BFD2DE]">
-      <div className="max-w-9/10 m-auto my-10 lg:px-14 py-14 flex flex-col lg:flex-row justify-between gap-10 ">
+    <div className="h-full w-full bg-gradient-to-r from-[#8fafb4] via-[#a9c4cc] to-[#b7c9d4]">
+      <div className="max-w-9/10 m-auto my-10 lg:px-14 py-14 flex flex-col lg:flex-row justify-between lg:gap-20 gap-10">
         <div className="md:max-w-3/5 lg:w-2/5">
           <h1 className="text-4xl font-semibold text-white">
             Sign up our Newslatter!
@@ -11,7 +11,7 @@ export default function Footer() {
             ke inbox kamu!
           </p>
 
-          <div className="mt-10">
+          <div className="lg:mt-10 mt-6">
             <input
               type="text"
               placeholder="youremail@gmail.com"
