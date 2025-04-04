@@ -19,7 +19,7 @@ export default function TestimonialList() {
   ];
 
   return (
-    <div className="w-full lg:w-3/4 flex flex-col md:flex-row md:gap-10 gap-6 justify-between">
+    <div className="w-full lg:w-3/4 flex flex-col md:flex-row md:gap-14 gap-6 justify-between">
       {testimonials.map((item, index) => (
         <TestimonialCard
           key={index}

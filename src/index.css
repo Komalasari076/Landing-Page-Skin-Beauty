@@ -3,7 +3,7 @@
 @layer base {
   html {
     font-family: "Poppins", sans-serif;
-    background-color: rgb(245, 245, 245);
+    background-color: white;
   }
 
   .font-josefin {

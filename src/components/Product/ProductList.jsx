@@ -13,6 +13,7 @@ export default function ProductList({ products, isMobile }) {
         <ProductCard
           key={item.id}
           name={item.name}
+          image={item.image}
           price={item.price}
           sold={item.sold}
           rating={item.rating}

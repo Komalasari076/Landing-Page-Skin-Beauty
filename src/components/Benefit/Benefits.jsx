@@ -5,7 +5,7 @@ import BenefitItem from "./BenefitItem";
 
 export default function Benefits() {
   return (
-    <section className="flex flex-col lg:flex-row justify-between items-start gap-8 mt-10 mb-20 lg:my-20 lg:px-14">
+    <section className="flex flex-col lg:flex-row justify-between items-start gap-8 mt-10 mb-20 lg:my-30 lg:px-14">
       <BenefitItem
         title="Kandungan Niacinamide 5%"
         description="Niacinamide adalah bentuk vitamin B3 yang dikenal mampu mencerahkan kulit, mengontrol minyak berlebih, dan memperbaiki skin barrier."
