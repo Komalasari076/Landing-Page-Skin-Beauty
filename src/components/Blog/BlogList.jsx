@@ -13,6 +13,7 @@ export default function BlogList({ blogs, isMobile }) {
         <BlogCard
           key={blog.id}
           title={blog.title}
+          image={blog.image}
           date={blog.date}
           description={blog.description}
         />

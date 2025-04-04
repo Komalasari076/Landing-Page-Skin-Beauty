@@ -9,7 +9,7 @@ export default function FAQCard({ id, question, answer }) {
   }
 
   return (
-    <div className="border-b border-gray-300 last:border-b-0 py-2">
+    <div className="border-b-3 border-gray-200 last:border-b-0 py-2">
       <button
         className="w-full flex justify-between items-center py-2 text-left font-medium text-gray-900 cursor-pointer"
         onClick={() => handleToggleFAQ(id)}

@@ -4,7 +4,7 @@ import FooterLinks from "./FooterLinks";
 
 export default function Footer() {
   return (
-    <div className="h-full w-full bg-gradient-to-r from-[#8fafb4] via-[#a9c4cc] to-[#b7c9d4]">
+    <div className="h-full w-full bg-gradient-to-r from-[#71989C] via-[#97B6C0] to-[#B1C4D1]">
       <div className="max-w-9/10 m-auto my-10 lg:px-14 py-14 flex flex-col lg:flex-row justify-between lg:gap-20 gap-10">
         <NewsLatter />
 

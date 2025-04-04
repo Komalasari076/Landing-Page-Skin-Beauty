@@ -1,7 +1,7 @@
 export default function NewsLatter() {
   return (
-    <div className="md:max-w-3/5 lg:w-2/5">
-      <h1 className="text-4xl font-semibold text-white">
+    <div className="md:max-w-3/5 lg:w-2/5 tracking-wide">
+      <h1 className="text-3xl font-semibold text-white ">
         Sign up our Newslatter!
       </h1>
       <p className=" text-white mt-2">

@@ -40,7 +40,7 @@ export default function FAQList() {
   ];
 
   return (
-    <div className="lg:w-[80%] w-full bg-white p-6 rounded-xl shadow-md">
+    <div className="lg:w-[80%] w-full bg-gray-50 p-6 rounded-xl shadow-md">
       {faqs.map((faq) => (
         <FAQCard
           key={faq.id}
