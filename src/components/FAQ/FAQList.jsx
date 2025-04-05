@@ -1,4 +1,4 @@
-import FAQCard from "./FAQCard";
+import FAQItem from "./FAQItem";
 
 export default function FAQList() {
   const faqs = [
@@ -40,9 +40,9 @@ export default function FAQList() {
   ];
 
   return (
-    <div className="lg:w-[80%] w-full bg-gray-50 p-6 rounded-xl shadow-md">
+    <div className="lg:w-[80%] w-full bg-gray-50 px-10 py-4 rounded-2xl">
       {faqs.map((faq) => (
-        <FAQCard
+        <FAQItem
           key={faq.id}
           id={faq.id}
           question={faq.question}

@@ -1,7 +1,7 @@
 import { ChevronDown, ChevronUp } from "lucide-react";
 import { useState } from "react";
 
-export default function FAQCard({ id, question, answer }) {
+export default function FAQItem({ id, question, answer }) {
   const [open, setOpen] = useState(null);
 
   function handleToggleFAQ(id) {
@@ -9,7 +9,7 @@ export default function FAQCard({ id, question, answer }) {
   }
 
   return (
-    <div className="border-b-3 border-gray-200 last:border-b-0 py-2">
+    <div className="border-b-3 border-gray-200 last:border-b-0 py-3">
       <button
         className="w-full flex justify-between items-center py-2 text-left font-medium text-gray-900 cursor-pointer"
         onClick={() => handleToggleFAQ(id)}

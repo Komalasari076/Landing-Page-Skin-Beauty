@@ -1,10 +1,10 @@
 export default function NewsLatter() {
   return (
-    <div className="md:max-w-3/5 lg:w-2/5 tracking-wide">
+    <div className="md:max-w-3/5 lg:w-[450px] tracking-wide">
       <h1 className="text-3xl font-semibold text-white ">
-        Sign up our Newslatter!
+        Sign up for our Newslatter!
       </h1>
-      <p className=" text-white mt-2">
+      <p className=" text-white mt-3">
         Dapatkan tips eksklusif, promo spesial, dan update terbaru langsung ke
         inbox kamu!
       </p>
@@ -13,9 +13,9 @@ export default function NewsLatter() {
         <input
           type="text"
           placeholder="youremail@gmail.com"
-          className="w-3/5 bg-white/20 p-4 rounded-l-2xl placeholder-white"
+          className="w-2/3 outline-none bg-white/20 p-3 rounded-l-xl text-white"
         />
-        <button className="bg-[#039397] p-4 rounded-2xl -ml-2 text-white font-semibold cursor-pointer">
+        <button className="bg-[#039397] hover:bg-[#386d6e] p-3 rounded-xl -ml-2 text-white font-semibold cursor-not-allowed">
           Subscribe
         </button>
       </div>

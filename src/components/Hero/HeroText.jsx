@@ -1,10 +1,10 @@
 export default function HeroText() {
   return (
     <section className="pt-24">
-      <h1 className="text-4xl text-white font-semibold mb-4">
+      <h1 className="text-4xl text-white font-semibold mb-4 tracking-wide">
         Bright<span className="text-white/70"> to Skin</span>
       </h1>
-      <h1 className="text-4xl text-white font-semibold">
+      <h1 className="text-4xl text-white font-semibold tracking-wide">
         Health<span className="text-white/70"> to Within</span>
       </h1>
 

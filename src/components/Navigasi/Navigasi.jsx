@@ -8,7 +8,7 @@ export default function Navigasi() {
   const [open, setOpen] = useState(false);
 
   return (
-    <nav className="bg-white/20 py-4 px-8 rounded-2xl text-white flex justify-between items-center relative">
+    <nav className="relative flex justify-between items-center bg-white/20 text-white py-4 px-8 rounded-2xl">
       <Logo open={open} setOpen={setOpen} />
       <MenuDesktop />
       <Icon />

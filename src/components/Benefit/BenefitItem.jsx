@@ -7,7 +7,7 @@ export default function BenefitItem({ title, description, image, alt, reverse })
     >
       <div className="flex flex-col gap-4 w-full p-2 mt-4">
         <h3 className="text-xl font-semibold">{title}</h3>
-        <p className="opacity-75">{description}</p>
+        <p className="opacity-80">{description}</p>
       </div>
       <img src={image} alt={alt} />
     </div>
