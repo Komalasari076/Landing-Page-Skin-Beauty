@@ -9,7 +9,7 @@ export default function NewsLatter() {
         inbox kamu!
       </p>
 
-      <div className="lg:mt-10 mt-6">
+      <div className="lg:mt-10 mt-8">
         <input
           type="text"
           placeholder="youremail@gmail.com"

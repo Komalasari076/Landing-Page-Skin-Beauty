@@ -3,7 +3,7 @@ import ProductCard from "./ProductCard";
 export default function ProductList({ products, isMobile }) {
   return (
     <div
-      className={`grid gap-10 my-14 ${
+      className={`grid gap-10 mt-8 mb-14 ${
         isMobile
           ? "grid-cols-1 md:hidden"
           : "hidden md:grid lg:grid-cols-4 grid-cols-2"

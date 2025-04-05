@@ -7,11 +7,11 @@ import youtube from "../../assets/youtube.svg";
 export default function SosialIcon() {
   return (
     <div className="flex justify-between items-center gap-8">
-      <img src={instagram} alt="" className="w-7 h-7" />
-      <img src={twitter} alt="" className="w-6 h-6" />
-      <img src={pinterest} alt="" className="w-9 h-9" />
-      <img src={facebook} alt="" className="w-9 h-9" />
-      <img src={youtube} alt="" className="w-9 h-9" />
+      <img src={instagram} alt="instagram" className="w-7 h-7 cursor-text" />
+      <img src={twitter} alt="twitter" className="w-6 h-6 cursor-text" />
+      <img src={pinterest} alt="pinterest" className="w-9 h-9 cursor-text" />
+      <img src={facebook} alt="facebook" className="w-9 h-9 cursor-text" />
+      <img src={youtube} alt="youtube" className="w-9 h-9 cursor-text" />
     </div>
   );
 }

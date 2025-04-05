@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard";
 export default function BlogList({ blogs, isMobile }) {
   return (
     <div
-      className={`grid gap-10 my-14 ${
+      className={`grid gap-10 mt-8 mb-16 ${
         isMobile
           ? "grid-cols-1 md:grid-cols-2 lg:hidden"
           : "hidden lg:grid grid-cols-3"
