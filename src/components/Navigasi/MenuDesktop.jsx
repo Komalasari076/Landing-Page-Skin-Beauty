@@ -1,6 +1,6 @@
 export default function MenuDesktop() {
   return (
-    <ul className="lg:flex gap-10 font-semibold text-lg hidden">
+    <ul className="lg:flex gap-10 font-semibold hidden">
       <li>Home</li>
       <li>About</li>
       <li>Product</li>

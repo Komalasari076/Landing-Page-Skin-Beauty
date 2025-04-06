@@ -8,9 +8,9 @@ export default function HeroText() {
         Health<span className="text-white/70"> to Within</span>
       </h1>
 
-      <p className="mt-10 max-w-md text-white text-lg">
-        Radiant and healthy skin starts with the right care. Discover the best
-        solution for your skin here!
+      <p className="mt-8 max-w-lg text-white tracking-wide">
+        Kulit yang bercahaya dan sehat dimulai dari perawatan yang tepat.
+        Temukan solusi terbaik untuk kulitmu di sini!
       </p>
     </section>
   );

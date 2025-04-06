@@ -7,12 +7,12 @@ export default function Icon() {
       <img
         src={search}
         alt="Search"
-        className="md:w-8 w-6 md:h-8 h-6 cursor-text"
+        className="md:w-7 w-6 md:h-7 h-6 cursor-text"
       />
       <img
         src={cart}
         alt="Cart"
-        className="md:w-8 w-6 md:h-8 h-6 cursor-text"
+        className="md:w-7 w-6 md:h-7 h-6 cursor-text"
       />
     </div>
   );
